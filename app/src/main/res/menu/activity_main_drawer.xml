@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_submit"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="发布" />
+        <item
+            android:id="@+id/nav_released_campaign"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="已发布(活动)" />
+        <item
+            android:id="@+id/nav_released_demand"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="已发布(商业需求)" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+        <item
+            android:id="@+id/nav_contactUs"
+            android:icon="@drawable/ic_menu_send"
+            android:title="联系我们" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_menu_share"
+                android:title="消息" />
+        </menu>
+    </item>
+
+</menu>

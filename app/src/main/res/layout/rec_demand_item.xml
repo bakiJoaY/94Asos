@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rec_demand_card_one"
+    android:layout_width="150dp"
+    android:padding="6dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="8dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/rec_demand_img"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/impson"/>
+
+        <TextView
+            android:id="@+id/rec_demand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adidas"
+            android:textColor="#000000"
+            android:lines="1"
+            android:padding="3dp"
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
